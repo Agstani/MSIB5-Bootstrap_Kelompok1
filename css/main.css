@@ -77,24 +77,21 @@ input::placeholder{
 }
 
 .container-Bakcr{
-    position: absolute;
-    width: 600px;
-    margin-left: -680px;
+    width: 500px;
+    margin-left: 80px;
     height: auto;
     cursor: no-drop;
     margin-top: 150px;
 }
 
 .container-Pragraf{
-    position: absolute;
-    margin-left: 600px;
+    margin-left: 80px;
     margin-right: 30px;
     text-align: justify;
-    margin-top: 170px;
+    margin-top:270px;
 }
 
 .button-AHref{
-    position: absolute;
     font-size: 16px;
     color: white;
     font-weight: bold;
@@ -103,8 +100,8 @@ input::placeholder{
     background-color: #41644A;
     width: 120px;
     height: 40px;
-    margin-top: 527px;
-    margin-left: 527px;
+    margin-top: 27px;
+    margin-left: 727px;
     padding: 7px;
     border-radius: 4px;
 }
@@ -211,3 +208,8 @@ input::placeholder{
 .card{
     margin-top: 200px;
 }
+
+#container-HoM3 {
+    z-index: 2; /* Atur nilai sesuai kebutuhan Anda, lebih tinggi dari elemen lain */
+  }
+  
